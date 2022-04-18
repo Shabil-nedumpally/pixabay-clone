@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+}.nav{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}.nav img{
+    width: 100px;
+    height: 25px;
+    margin: 1%;
+
+}.nav li{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    cursor: pointer;
+   
+}.nav ul{
+    display: flex;
+    gap: 46px;
+}.nav  li:hover ,.nav p:hover, .nav i:hover, .nav h5:hover{
+    color: gray;
+}.nav p{
+    margin: 16px 0 0 216px;
+    font-family: sans-serif;
+    
+}.bx  {
+    margin:16px 0 0 2px;
+}.nav p:nth-child(2){
+    margin-top: 5px;
+    
+}.login{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 14px 0 0 54px;
+}.hr{
+    width: 1px;
+    height: 36px;
+    background-color: rgb(207, 198, 198);
+    margin: 5px 0 0 34px;
+}.upload{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(15, 252, 15);
+    border-radius: 20px;
+    margin: 5px;
+}.upload h5{
+    margin: 8px 0 0 24px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+}.menu{
+    display: none;
+}.theme{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://cdn.pixabay.com/photo/2022/04/02/12/29/wild-daffodils-7106921_960_720.jpg);
+    background-size: cover;
+}.theme h1{
+    color: white;
+    margin: 0;
+    padding: 13% 0 0 26%;
+    font-weight: bold;
+}.theme p{
+    color: white;
+    padding: 0 0 0 24%;
+    font-weight: 500;
+}.search{
+    width: 60%;
+    height: 55px;
+    background-color: white;
+    margin: 23px 0 0 20%;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    color: gray; 
+    padding-left: 5px;
+    border-radius: 8px;
+    
+}.contents{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}.contents img{
+    width: auto;
+    height: 300px;
+}
+ 
+@media (max-width:1020px){
+    .nav ul{
+        display: none;
+    }.upload{
+        display: none;
+    }.login{
+        display: none;
+    }.nav p{
+        display: none;
+    }.hr{
+        width: 1px;
+    height: 36px;
+    background-color: rgb(207, 198, 198);
+    margin: 5px 0 0 65%;
+
+    }.menu{
+        display: contents;
+        font-size: xx-large;
+        
+    
+
+    }.menu  i{
+        margin:6px 0 0 2px;   
+    }.theme h1{
+        color: white;
+        margin: 0;
+        padding: 40% 0 0 15%;
+        font-weight: 700;
+        font-size: 26px;
+    }.theme p{
+        color: white;
+        padding: 0 0 0 8%;
+        font-weight: 500;
+        
+    }.search{
+        width: 90%;
+        height: 55px;
+        background-color: white;
+        margin: 23px 0 0 3%;
+        display: flex;
+        flex-direction: row;
+        font-size: large;
+        color: gray; 
+        padding-left: 5px;
+        border-radius: 8px;
+        
+    }
+}
